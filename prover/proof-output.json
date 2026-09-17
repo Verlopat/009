@@ -1,0 +1,13 @@
+{
+  "node_id": "node-01",
+  "energy_used": 72,
+  "carbon_intensity": 41,
+  "attestation": "TEE_MEASUREMENT_OK",
+  "proof": "ZK_PROOF_PLACEHOLDER",
+  "publicSignals": {
+    "energy_threshold": 100,
+    "carbon_threshold": 60,
+    "valid_energy": 1,
+    "valid_carbon": 1
+  }
+}

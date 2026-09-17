@@ -1,0 +1,8 @@
+{
+  "name": "vec-prover",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "snarkjs": "^0.7.4"
+  }
+}

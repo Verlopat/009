@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  vec-sim:
+    image: python:3.11-slim
+    working_dir: /app
+    volumes:
+      - ./sim:/app
+    command: bash -lc "pip install -r requirements.txt && python simulate.py"
